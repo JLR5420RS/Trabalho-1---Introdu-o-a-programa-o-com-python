@@ -36,7 +36,14 @@ for linha in arquivo:
     mes_final = dados[2]
     valor_contrato = dados[3]
     contratos[fornecedor][mes_inicial][mes_final] = valor_contrato    
-print(contratos)
+with open("contratos.txt", "w") as resultado:
+    for fornecedor in contratos:
+        print("\n")
+        resultado.write("\n")
+        for mes_inicial in fornecedor:
+            print(mes_inicial)
+            resultado.write(str(mes_inicial) + "\n")
+print("arquivo de resultado contratos.txt salvo")
 
 
 
