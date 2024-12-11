@@ -1,7 +1,13 @@
 #Trabalho 1 - X552 Introdução a programação com python
 
 # carrega o arquivo de dados
-arquivo=open("entradagrande.txt").readlines()
+resposta=(input("qual arquivo você deseja selecionar? digite 1 para entrada.txt ou digite 2 para entradagrande.txt: "))
+while resposta != "1" and resposta != "2":
+    resposta=(input("qual arquivo você deseja selecionar? digite 1 para entrada.txt ou digite 2 para entradagrande.txt: "))
+if resposta == "1":
+    arquivo=open("entrada.txt").readlines()
+else:
+    arquivo=open("entradagrande.txt").readlines()
 # armazena a linha sobre o pedido de contrato que a empresa quer
 pedido_empresa = arquivo[0].strip().split()
 # elimina essa linha do arquivo carregado
