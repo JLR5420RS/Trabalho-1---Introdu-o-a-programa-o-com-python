@@ -35,7 +35,8 @@ for linha in arquivo:
     mes_inicial = dados[1]
     mes_final = dados[2]
     valor_contrato = dados[3]
-    contratos[fornecedor][mes_inicial][mes_final] = valor_contrato    
+    contratos[fornecedor][mes_inicial][mes_final] = valor_contrato
+# salvar a matriz contratos dentro de um arquivo e mostrar o resultado no terminal    
 with open("contratos.txt", "w") as resultado:
     for fornecedor in contratos:
         print("\n")
