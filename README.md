@@ -1,4 +1,4 @@
-# Trabalho-1---Introdu-o-a-programa-o-com-python
+# Trabalho - 1 Introdução a programação com python (Turma 09)
 trabalho de Estrutura de Dados com o objetivo de inserir os valores de contrato de fornecedores de energia considerando os meses que o contrato vale, mais informações a seguir
 
 Instruções do arquivo:
