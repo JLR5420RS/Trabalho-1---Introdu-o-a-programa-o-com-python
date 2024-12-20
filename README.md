@@ -1,5 +1,5 @@
 # Trabalho - 1 Introdução a programação com python (Turma 09)
-trabalho de Estrutura de Dados com o objetivo de inserir os valores de contrato de fornecedores de energia considerando os meses que o contrato vale, mais informações a seguir
+Trabalho de Estrutura de Dados com o objetivo de inserir os valores de contrato de fornecedores de energia considerando os meses que o contrato vale, mais informações a seguir
 
 Instruções do arquivo:
 
@@ -8,6 +8,8 @@ Instruções do arquivo:
 2 - Abrir e rodar o código
 
 3 - O código vai perguntar qual arquivo para carregar, caso seja o entradas.txt digitar 1, caso contrário digitar 2
+
+4 - O resultado irá ser salvo dentro do arquivo contratos.txt
 
 Contexto: Mercado Livre de Energia
 
